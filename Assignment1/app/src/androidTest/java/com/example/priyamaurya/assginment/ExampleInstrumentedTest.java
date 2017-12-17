@@ -1,4 +1,4 @@
-package com.example.priyamaurya.assignment1;
+package com.example.priyamaurya.assginment;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
