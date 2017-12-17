@@ -409,7 +409,7 @@ public class Camera2BasicFragment extends Fragment
 
     private static final String[] VIDEO_PERMISSIONS = {
             Manifest.permission.CAMERA,
-            Manifest.permission.RECORD_AUDIO,
+        //    Manifest.permission.RECORD_AUDIO,
     };
 
     private Integer mSensorOrientation;
@@ -914,12 +914,12 @@ public class Camera2BasicFragment extends Fragment
 
 
     private boolean hasPermissionsGranted(String[] permissions) {
-        /*for (String permission : permissions) {
+        for (String permission : permissions) {
             if (ActivityCompat.checkSelfPermission(getActivity(), permission)
                     != PackageManager.PERMISSION_GRANTED) {
                 return false;
             }
-        }*/
+        }
         return true;
     }
 
